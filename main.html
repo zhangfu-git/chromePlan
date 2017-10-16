@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New Page</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="mask"></div>
+    <div class="save_name_module">
+      <div>
+        <input type="text" placeholder="怎么称呼您？" id="nameInput">
+      </div>
+      <button class="saveNameBtn">保存</button>
+    </div>
+    <div class="all_plan">
+      <span class="close_btn_plan">×</span>
+      <h1 class="title">计划列表</h1>
+      <div class="all_plan_list"></div>
+    </div>
+    <ul class="menu">
+      <li class="addPlanBtn">添加计划</li>
+      <li class="selectPlanBtn">计划查看</li>
+    </ul>
+    <div class="task_module">
+      <span class="close_btn">×</span>
+      <h1>添加计划</h1>
+      <p class="add_plan_tips"></p>
+      <div class="text-left">
+        <p>开始时间：</p>
+        <input type="datetime-local" class="plan_start_date">
+      </div>
+      <div class="text-left">
+        <p>结束时间：</p>
+        <input type="datetime-local" class="plan_end_date">
+      </div>
+      <div class="text-left">
+        <p>计划内容：</p>
+        <textarea class="plan_content"></textarea>
+      </div>
+      <button class="add_plan_btn">添加</button>
+    </div>
+    <div class="center_module">
+      <div id="timeBox" class="time">15:10:19</div>
+      <p class="greetins">下午好！张富先生</p>
+      <p class="tips plan_p">您现在的计划是写代码</p>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
